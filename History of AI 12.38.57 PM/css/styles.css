@@ -1,0 +1,690 @@
+/* CSS Document */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0 auto;
+    align-items: inherit;
+}
+
+/* Style rules for body and main */
+body {
+    background-color: #3262a8;/* Navy Blue */
+    border-color: #000;
+}
+
+main #content{
+	margin-left: 5px;
+}
+
+header {
+	align-content: center;
+}
+
+/* Style rules for aside */
+aside {
+	font-weight: bold;
+	font-style: oblique;
+	background-color: rgba(100, 230, 290, 200);
+	padding-top: 3%;
+	padding-bottom: 1%;
+	margin-top: 5%;
+	text-align: left;
+	box-shadow: 1px 4px 5px;
+}
+
+aside h2 {
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+/*Style rule box sizing applies to all elements */
+box-sizing: border-box;
+
+/* Style rules for mobile viewport */
+
+/* Style rules for hamburger menu*/
+.mobile-nav a {
+	margin: 8px 6px 8px;
+	margin: 8px 6px 10px;
+	width: 90px;
+	height: 100px;
+	display: flex;
+}
+
+.mobile-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	top: 0;
+}
+
+.tablet-nav {
+	display: none;
+}
+
+.desktop-nav {
+	display: none;
+}
+
+nav {
+	padding: 5%;
+	margin-bottom: 2%;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	padding: 1.5em 1em;
+	text-decoration: none;
+}
+
+/*Style rules for list */
+#order-list {
+	padding: 1% 3% 3% 3%;
+	margin: 3% 5% 3%;
+}
+
+.list {
+	padding: 1.5%;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border: 1px #40CFF5 solid;
+}
+
+#li-section {
+	width: 55%;
+}
+
+#h2-section {
+	border: none;
+	padding-left: 1%;
+	padding-bottom: 5%;
+	padding-top: 6%;
+}
+
+/*Style rules for current page */
+.current {
+	width: 58%;
+	padding-left: 15%;
+	align-items: center;
+	margin: 3% 4% 6% 8%;
+}
+
+.current p {
+	padding-right: 14%;
+}
+
+.h3-current {
+	padding: 7% 3% 10% 2
+}
+
+/* Show menu class and menu links id */
+.mobile {
+	display: block;
+}
+
+.tablet-desktop, #menu-links {
+	display: none;
+}
+
+header h1.header-display {
+	display: none;
+}
+
+h1.header-display {
+	display: none;
+}
+
+h2.header-display{
+	display: block;
+	text-align: center;
+}
+
+/* History section: Style rules for timeline */
+
+
+.timeline {
+	position:sticky;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 40px 30px;
+}
+
+.timeline::after {
+	width: 50px;
+	height: 30px;
+	background-color: #000;
+	border-radius: 30%;
+	top: 0;
+	left: 50%;
+	margin-left: -30px;
+}
+
+.history-section {
+	position:sticky;
+}
+
+/* History section: Container around the content */
+.container {
+	padding: 20px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 60%;
+}
+
+.container::after {
+	content: open-quote;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	border: 1px solid #FFFFFF;
+	top: 40px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+/* History section: For the content */
+.content-time {
+	padding: 40px 40px;
+}
+
+.content-time p {
+	color: #000000;
+	padding: 2% 3% 8% 5%;
+}
+
+
+/* Style rules for nav and header */
+
+header nav a {
+    padding: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: inherit;
+    position: initial;
+    text-align: left;
+}
+
+nav a {
+	color: #555;
+    text-decoration: none;
+    padding: 3em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1.5em;
+}
+
+nav a:hover {
+    color: #fff;
+	animation-name: nav;
+	animation-iteration-count: infinite;
+	animation-delay: 0s;
+	animation-duration: 5s;
+}
+
+header {
+	overflow-x: hidden;
+    top: 0%;
+    background-color: #000;
+	min-width: 90%;
+	padding: 25px 9px 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1%;
+    display: block;
+	float: left;
+}
+
+header img {
+	padding-bottom: 1%;
+	padding-left: 26%
+}
+
+h2 {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-top: 2%
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 3%;
+    display: block;
+}
+
+/*Style rules for Table*/
+table {
+	border: 2px #000 solid;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 90%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+th, td {
+	border: 2px solid #000;
+	padding: 1%;
+}
+	
+th 	{
+	background-color: #000;
+	color: #fff;
+	font-size: 1.20em;
+}
+
+/* Style rules for section */
+section {
+	background-color: #0752E4;
+	min-width: 30%;
+	padding: 5px 5px 8px;
+}
+
+section h2 {
+	background-color: #3262a8;/* Navy Blue */
+	padding-left: 4%;
+	padding-bottom: 8%;
+	padding-top: 5%;
+}
+@media screen and (min-width: 1015px), print {
+/* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+	
+	.mobile, .mobile-nav {
+		display: none;
+	}
+	
+	.tablet-links, .tablet-nav {
+		display: block;
+	}
+	
+	.desktop-nav, .desktop-links {
+		display: none;
+	}
+	
+	header h1.header-display {
+		display: block;
+	}	
+	
+	h2.header-display{
+		text-align: left;
+	}
+	
+	article {
+		display: block;
+		min-width: 20em;
+	}
+	
+	@keyframes nav {
+	from{color: #fff;}
+	to{color: #000;}
+	}
+	
+	span nav {
+		padding-top: 2%;
+		padding-left: 5%;
+		margin: 1px 6px 5px;
+  	}
+
+	nav a {
+		color: #555;
+		text-decoration: none;
+		padding: 5em;
+		text-align: right;
+		padding-left: 5em;
+		padding-right: 3em;
+		padding-bottom: 30em;
+	}
+
+	nav a:hover {
+		color: #fff;
+		animation-name: nav;
+		animation-iteration-count: infinite;
+		animation-delay: 0s;
+		animation-duration: 5s;
+	}
+
+	header {
+		overflow-x: hidden;
+		top: 0%;
+		background-color: #000;
+		padding-top: 9%;
+		max-height: 100%;
+		max-width: 100%;
+		padding: 20px 10px 20px;
+		position: static;
+	}
+
+	header h1 {
+		color: #fff;
+		font-size: 1.7em;
+		text-align: center;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-left: 15%;
+		display: block;
+		float: left;
+	}
+	
+	footer {
+		text-align: center;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 18px;
+		padding-top: 15px;
+	}
+
+	header img {
+		float: left;
+		padding-left: 6em;
+		padding-right: 5em;
+		padding-bottom: 5em;
+		padding-top: 3em;
+	}
+	
+	main header img {
+		float: left;
+		padding: 3em 1em 1em;
+	}
+
+	h3 {
+		font-size: 2em;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		margin: 0 auto;
+		padding-top: 5%;
+		padding-left: 3%;
+		display: block;
+	}
+	
+/*Tablet Viewport: Style rules for list */
+	#order-list {
+		padding: 5% 4% 2% 4%;
+		margin: 3% 5% 6% 8%;
+	}
+
+	.list {
+		padding: 3%;
+		margin: 1% 2% 3% 1%;
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+
+	#li-section {
+		width: 30%;
+		padding: 3px;
+		margin: 9px 5px 6px 90px;
+	}
+
+	#h2-section {
+		background-color: #3262a8;
+		border: none;
+		padding-left: 1%;
+		padding-bottom: 6%;
+		padding-top: 7%;
+	}
+
+/* Tablet Viewport: Style rule for header */
+   header {
+	 padding-bottom: 2%;
+   }
+
+	/* Tablet viewport: style rules for nav area */
+	
+	nav {
+		padding: 1%;
+		margin-bottom: 1%;
+    }
+
+    nav ul {
+		list-style-type: none;
+		text-align: center;
+	}
+	
+	
+	nav li {
+		font-size: 1.5em;
+		font-family: francois one, sans-serif;
+		display: inline-block;
+		border-right: 1px solid #fff;
+	}
+	
+	nav li:last-child {
+		border-right: none;
+	}
+    
+	nav li a {
+		padding: 0.5em 0.75em;
+		display: block;
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	nav li a:visited {
+		color: #9C9C9C;
+	}
+	
+	
+/* Tablet Viewport: Style rules for table */
+	table {
+       border: 1px solid #000;
+	   border-collapse: collapse;
+	   margin: 0 auto;
+	   width: 100%;
+    }
+	
+	th, td {
+		border: 2px solid #000;
+		padding: 2.5%;
+	}
+	
+	th {
+	  background-color: #000;
+	  color: #fff;
+	  font-size: 1.20em;
+	}
+	
+	/* Tablet Viewport: Style rule for form element */
+	
+	
+	/* Tablet Viewport: Style rules for main */
+		main #content {
+			padding-left: 6em;
+			padding-right: 5em;
+			padding-bottom: 5em;
+			padding-top: 3em;
+	}
+	
+	/* Tablet Viewport: Style rules for footer */
+	footer {
+		text-align: center;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+	}/* END Media Query for Tablet Viewport */
+
+@media screen and (min-width: 1280px), print {
+	/* Desktop Viewport: Show desktop class, hide mobile class */
+	
+	/*Desktop Viewport: Style rules for navigation and header */
+		nav {
+			padding: 4% 2% 4%;
+			margin-bottom: 1%;
+			display: block;
+		}
+
+		nav li {
+			font-size: 1.5em;
+			font-family: francois one, sans-serif;
+			display: contents;
+		}
+
+		nav li a {
+			padding-left: 2%;
+			padding-right: 3%;
+			float: left;
+		}
+
+		header {
+			overflow-x: hidden;
+			max-height: 300%;
+			max-width: 500%;
+		}
+	
+		header h1 {
+			font-family: 1.8em;
+		}
+		
+		/* Style rules for mobile links */
+		.desktop-nav, .desktop-links {
+			display: block;
+		}
+
+		.tablet-nav, .tablet-links {
+			display: block;
+		}
+
+		.mobile, .mobile-nav {
+			display: none;
+		}
+	
+		header h1, #text-display {
+			display: block;
+		}	
+	
+	}
+
+	h3 {
+		font-size: 2em;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		margin: 0 auto;
+		padding-top: 5%;
+		padding-left: 3%;
+		display: block;
+	}
+
+	/* Styling for links */
+	.link {
+		margin: 5px 120px 28px 3px;
+		padding-left: 9%;
+		padding-top: 4.2%;
+		padding-bottom: 12px;
+	}
+
+	.link a {
+		text-decoration: none;
+		color: #fff;
+		font-style: italic;
+	}
+
+	a {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bold;
+		font-style: oblique;
+		padding: 3%;
+	}
+
+	/* Styling for paragraph and article*/
+	p {
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		padding: 20px;
+		font-size: 30px;
+		font-style: oblique;
+		padding-left: 3px;
+		color: #999;
+		text-align: left;
+	}
+
+	article {
+		background-color: #1354F4;
+		min-width: 60px;
+	}    
+
+
+	/* Styling for form */
+
+	blockquote {
+		font-size: 1.5em;
+		padding-bottom: 1.5%;
+		margin: 1em 1.5em 2.1em;
+		text-align: left;
+		color: #000;
+	}
+
+	blockquote h2 {
+		padding-right: 1%;
+		padding-top: 1%;
+		padding-bottom: 2%;
+	}
+
+	form {
+		padding: 20px 20px 70px 18px;
+		margin: 5px 20px 58px;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		border: 3px solid #717171;
+		background:linear-gradient(to right, #1120, #fff);
+	}
+
+	input {
+		margin-top: 2%;
+		margin-left: 1px;
+		margin-right: 3%;
+		padding-right: 2%;
+		padding-top: 2px;
+		border: 2px solid #000;
+	}
+
+	label {
+		font-size: 35px;
+	}
+
+	button {
+		border: 1px solid #8F8F8F;
+		border-radius: 8.5px;
+		padding-left: 3%;
+		padding-right: 3%;
+		margin-top: 2%;
+	}
+
+	div h1 {
+		padding-bottom: 6%;
+		padding-top: 5%;
+		text-align: center;
+	}
+
+	/* Style rules for footer */
+	footer {
+		text-align: center;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 18px;
+		padding-top: 10px;
+	}
+
+	footer p {
+		text-align: center;
+	}
+
+	footer nav {
+		background-color: #A7A7A7;
+		padding-bottom: 3%;
+		padding-top: 3%;
+	}
+
+	footer nav a{
+		color: #fff;
+		padding-top: 22px;
+		padding-left: 100px;
+		padding-right: 30px;
+	}
